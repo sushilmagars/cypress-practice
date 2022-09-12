@@ -7,7 +7,7 @@
 
 In the project directory, you can run:
 
-### `npm start`
+### Start app locally using `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -15,11 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### To run tests
+### Run tests locally using `Cypress`
 
 - Open cypress IDE to start running cypress with `npm run cypress-open`
 
 - Selector either End to End tests or Component tests -
+
 <img width="906" alt="image" src="https://user-images.githubusercontent.com/13083115/189558938-54c19d3f-2495-4998-a6f1-dfd987708514.png">
 
 - Select spec files to run 
