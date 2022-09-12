@@ -23,6 +23,6 @@ You may also see any lint errors in the console.
 
 <img width="906" alt="image" src="https://user-images.githubusercontent.com/13083115/189558938-54c19d3f-2495-4998-a6f1-dfd987708514.png">
 
-- Select spec files to run 
+- Select Browser and then spec files on next screen to run 
 
 <img width="546" alt="image" src="https://user-images.githubusercontent.com/13083115/189558992-37eeeda3-d46c-4982-9716-edf830017f89.png">
