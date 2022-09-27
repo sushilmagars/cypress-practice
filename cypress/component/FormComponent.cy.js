@@ -8,6 +8,9 @@ describe('Form component testing', () => {
     cy.get('[data-aid=SUBMIT_FORM]')
       .should('be.visible')
       .click();
-    cy.get('.registration-form').contains('please');
+    cy.get('[type=email]')
+      .then(($input) => {
+        expect($input[0].validationMessage).to.eq(`Please include an '@' in the email address. 'sushil' is missing an '@'.`)
+      });
   });
 });
